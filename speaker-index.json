@@ -1,0 +1,29 @@
+{
+    "speakers": [
+        {
+            "id": 0,
+            "name": "Leilani Sears",
+            "description": "Lorem ipsum"
+        },
+        {
+            "id": 1,
+            "name": "Joseph Hand",
+            "description": "Lorem ipsum"
+        },
+        {
+            "id": 2,
+            "name": "Thad Shinno",
+            "description": "Lorem ipsum"
+        },
+        {
+            "id": 3,
+            "name": "J.C. Jones",
+            "description": "Lorem ipsum"
+        },
+        {
+            "id": 4,
+            "name": "Daylam Tayari",
+            "description": "Lorem ipsum"
+        }
+    ]
+}
