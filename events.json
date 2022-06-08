@@ -1,0 +1,144 @@
+{
+    "events": [
+        {
+            "name": "Club Introduction",
+            "date": "2022-08-19T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [0],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Introduction to Linux",
+            "date": "2022-08-26T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Recon and Enumeration",
+            "date": "2022-09-02T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Linux Privilege Escalation",
+            "date": "2022-09-09T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Blue Team: Incident Response",
+            "date": "2022-09-16T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [1],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Introduction to Web App",
+            "date": "2022-09-23T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Capture the Flag",
+            "date": "2022-09-30T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 2,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "J.C. Talk Title",
+            "date": "2022-10-14T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 1,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Blue Team: Forensics",
+            "date": "2022-10-21T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [1],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Tool Talk: Docker",
+            "date": "2022-10-28T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Quick Talks",
+            "date": "2022-11-04T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 1,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Tool Talk: Sliver",
+            "date": "2022-11-11T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "TBD Guest Talk",
+            "date": "2022-11-18T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 1,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        },
+        {
+            "name": "Club Outro TBD",
+            "date": "2022-12-02T16:15:00-07:00",
+            "location": "ASU MU",
+            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "speakers": [],
+            "category": 0,
+            "description": "Lorem ipsum",
+            "icsURL": ""
+        }
+    ]
+}
