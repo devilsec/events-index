@@ -15,6 +15,8 @@ __license__ = 'GNU GPL v3'
 
 import re
 import json
+from collections import Counter
+from ics import Calendar, Event
 
 
 # Retrieve Indexes and Validate and Parse JSON:
@@ -34,17 +36,62 @@ categories = retrieve_validate('categories.json').get('categories')
 
 # Validate Index Data Syntax:
 
+speaker_keys = ['id', 'name', 'description']
+category_keys = ['id', 'name']
+event_keys = ['name', 'date', 'location', 'locationURL',
+              'speakers', 'category', 'description', 'icsURL']
+
+
+def validate_speaker(speaker):
+    if Counter(speaker.keys()) != Counter(speaker_keys):
+        raise KeyError('The keys for at least one speaker are not valid.')
+    id = speaker.get('id')
+    name = speaker.get('name')
+    description = speaker.get('description')
+    if not isinstance(id, int):
+        raise TypeError(
+            f"The ID of the speaker with ID '{id}' is not an integer.")
+    if not isinstance(name, str):
+        raise TypeError(
+            f"The name of the speaker with ID '{id}' is not a string.")
+    if not isinstance(description, str):
+        raise TypeError(
+            f"The description of the speaker with ID '{id}' is not a string.")
+    # Return True if the speaker is valid.
+    return True
+
+
+def validate_category(category):
+    if Counter(category.keys()) != Counter(category_keys):
+        raise KeyError('The keys for at least one category are not valid.')
+    id = category.get('id')
+    name = category.get('name')
+    if not isinstance(id, int):
+        raise TypeError(
+            f"The ID of the speaker with ID '{id}' is not an integer.")
+    if not isinstance(name, str):
+        raise TypeError(
+            f"The name of the speaker with ID '{id}' is not a string.")
+    # Return True if the category is valid.
+    return True
+
+
 speaker_ind = []
 for s in speakers:
+    validate_speaker(s)
     speaker_ind.append(s.get('id'))
 
 category_ind = []
 for c in categories:
+    validate_category(c)
     category_ind.append(c.get('id'))
 
 
 def validate_event(event):
-    # Retrieve all values for reuse:
+    # Check if the keys are the same:
+    if Counter(event.keys()) != Counter(event_keys):
+        raise KeyError('The keys for at least one event are not valid.')
+        # Retrieve all values for reuse:
     name = event.get('name')
     date = event.get('date')
     location = event.get('location')
