@@ -35,7 +35,7 @@ def retrieve_validate(jfile):
 
 
 events = retrieve_validate('events.json').get('events')
-speakers = retrieve_validate('speaker-index.json').get('speakers')
+speakers = retrieve_validate('speakers.json').get('speakers')
 categories = retrieve_validate('categories.json').get('categories')
 
 
