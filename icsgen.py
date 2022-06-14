@@ -17,6 +17,11 @@ import re
 import json
 from collections import Counter
 from ics import Calendar, Event
+from calendar import month_abbr
+from datetime import datetime
+
+
+ics_path = "ics/"
 
 
 # Retrieve Indexes and Validate and Parse JSON:
@@ -146,5 +151,63 @@ def validate_event(event):
     return True
 
 
+def ics_duration(event):
+    duration_groups = re.search(
+        "^([0-9]*[dhms])([0-9]+h)?([0-9]+m)?([0-9]+s)?$", event.get('duration'))
+    days = None
+    hours = None
+    minutes = None
+    seconds = None
+    duration_dict = {}
+    if duration_groups is None:
+        raise ValueError(
+            f"Invalid duration for event with ID {event.get('id')}.")
+    for g in duration_groups.groups():
+        if g is not None:
+            spec = g[-1].lower()
+            if spec == 'd':
+                days = g
+            elif spec == 'h':
+                hours = g
+            elif spec == 'm':
+                minutes = g
+            else:
+                seconds = g
+    if days is not None:
+        duration_dict['days'] = int(days[:-1])
+    if hours is not None:
+        duration_dict['hours'] = int(hours[:-1])
+    if minutes is not None:
+        duration_dict['minutes'] = int(minutes[:-1])
+    if seconds is not None:
+        duration_dict['seconds'] = int(seconds[:-1])
+    return duration_dict
+
+
+def export_ics(cal, event_dict):
+    event = list(cal.events)[0]
+    file_name = f"{ics_path}DevilSec-{(event.name).replace(' ','_')}-{event.begin.day}-{month_abbr[event.begin.month]}-{event.begin.year}.ics"
+    with open(file_name, 'w') as f:
+        f.writelines(cal)
+    event_dict[
+        'icsURL'] = f"https://raw.githubusercontent.com/devilsec/events-index/master/{file_name}"
+
+
+def gen_ics(event):
+    cal = Calendar()
+    ev = Event()
+    ev.name = event.get('name')
+    ev.begin = event.get('date')
+    ev.duration = ics_duration(event)
+    ev.location = event.get('location')
+    ev.url = 'https://devilsec.org'
+    ev.description = f"Location: {ev.location} - {event.get('locationURL')}\n{event.get('description')}"
+    ev.status = "CONFIRMED"
+    ev.created = datetime.utcnow()
+    cal.events.add(ev)
+    export_ics(cal, event)
+
+
 for event in events:
     validate_event(event)
+    gen_ics(event)
