@@ -113,17 +113,17 @@ def validate_event(event):
         raise TypeError(f"Event name '{name}' is not a string.")
     if not isinstance(date, str):
         raise TypeError(f"Date value '{date}' is not a string.")
-    elif date_reg.search(date) is None:
+    elif date_reg.fullmatch(date) is None:
         raise ValueError(
             f"Date value '{date}' is not a valid ISO 8601 2019 format.'")
     if not isinstance(duration, str):
         raise TypeError(f"Duration value '{duration} is not a string.'")
-    elif re.search(r"^([0-9]*[dhms])([0-9]+h)?([0-9]+m)?([0-9]+s)?$", duration) is None:
+    elif re.fullmatch(r"^([0-9]*[dhms])([0-9]+h)?([0-9]+m)?([0-9]+s)?$", duration) is None:
         raise ValueError(
             f"Duration value '{duration}' is not in a valid format.")
     if not isinstance(location, str):
         raise TypeError(f"Location name '{location}' is not a string.")
-    if not isinstance(location_url, str) or re.search(r"http[s]?://(www\.)?.*", location_url) is None:
+    if not isinstance(location_url, str) or re.fullmatch(r"http[s]?://(www\.)?.*", location_url) is None:
         if not isinstance(location_url, str):
             raise TypeError(f"Location URL {location_url} is not a string.")
         raise ValueError(f"Location URL '{location_url}' is not a valid URL.")
@@ -184,9 +184,21 @@ def ics_duration(event):
     return duration_dict
 
 
+def valid_path_name(name):
+    name.replace(' ', '_')  # Not invalid, stylistic inclusion.
+    name.replace('\"', '-')
+    name.replace('\\', '-')
+    name.replace('/', '-')  # Not invalid, stylistic inclusion.
+    name.replace('\'', '-')  # Not invalid, stylistic inclusion.
+    name.replace('>', '-')
+    name.replace('<', '-')
+    name.replace('|', '-')
+    return name
+
+
 def export_ics(cal, event_dict):
     event = list(cal.events)[0]
-    file_name = f"{ics_path}DevilSec-{(event.name).replace(' ','_')}-{event.begin.day}-{month_abbr[event.begin.month]}-{event.begin.year}.ics"
+    file_name = f"{ics_path}DevilSec-{valid_path_name(event.name)}-{event.begin.day}-{month_abbr[event.begin.month]}-{event.begin.year}.ics"
     with open(file_name, 'w') as f:
         f.writelines(cal)
     event_dict[
