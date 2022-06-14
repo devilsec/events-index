@@ -223,3 +223,9 @@ def gen_ics(event):
 for event in events:
     validate_event(event)
     gen_ics(event)
+
+
+events = {"events": events}
+
+with open('events.json', 'w') as f:
+    json.dump(events, f, indent=4)
