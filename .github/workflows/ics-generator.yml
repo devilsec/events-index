@@ -30,4 +30,4 @@ jobs:
           commit_message: 'Generated ICS files'
           commit_user_name: 'ICS-Generator [GH]'
           commit_email: 'ics-generator-github-actions@noreply.github.com'
-          commit_author: 'ICS-Generator [GH] <github-actions@noreply.github.com>'
+          commit_author: 'ICS-Generator [GH] <ics-generator-github-actions@noreply.github.com>'
