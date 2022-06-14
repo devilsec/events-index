@@ -46,3 +46,10 @@ All categories are objects of a 'categoroies' array.
 Each category object contains the following attributes:  
 - ID: An integer value representing a unique ID of a category.
 - Name: A string value representing the name of the category.
+
+
+## Miscellaneous
+
+A GitHub secret is used within the GitHub workflow which runs the script and commits the ICS files because GitHub requires personal tokens to be used for write actions that are ran within a workflow which is triggered by a push event.  
+The GitHub personal token must have the `public_repo` permission and be stored as a secret named `COMMIT_TOKEN`.  
+If the `Commit ICS Files` step of the workflow fails with the fatal error: `could not read Username for 'https://github.com': No such device or address`, it means that the token has either expired or invalid.   
