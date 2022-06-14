@@ -6,10 +6,12 @@
             "duration": "2h",
             "location": "ASU MU",
             "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [0],
+            "speakers": [
+                0
+            ],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Club Introduction-19-Aug-2022.ics"
         },
         {
             "name": "Introduction to Linux",
@@ -20,7 +22,7 @@
             "speakers": [],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Introduction to Linux-26-Aug-2022.ics"
         },
         {
             "name": "Recon and Enumeration",
@@ -31,7 +33,7 @@
             "speakers": [],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Recon and Enumeration-2-Sep-2022.ics"
         },
         {
             "name": "Linux Privilege Escalation",
@@ -42,7 +44,7 @@
             "speakers": [],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Linux Privilege Escalation-9-Sep-2022.ics"
         },
         {
             "name": "Blue Team: Incident Response",
@@ -50,10 +52,12 @@
             "duration": "2h",
             "location": "ASU MU",
             "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [1],
+            "speakers": [
+                1
+            ],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Blue Team: Incident Response-16-Sep-2022.ics"
         },
         {
             "name": "Introduction to Web App",
@@ -64,7 +68,7 @@
             "speakers": [],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Introduction to Web App-23-Sep-2022.ics"
         },
         {
             "name": "Capture the Flag",
@@ -75,7 +79,7 @@
             "speakers": [],
             "category": 2,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Capture the Flag-30-Sep-2022.ics"
         },
         {
             "name": "J.C. Talk Title",
@@ -86,7 +90,7 @@
             "speakers": [],
             "category": 1,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-J.C. Talk Title-14-Oct-2022.ics"
         },
         {
             "name": "Blue Team: Forensics",
@@ -94,10 +98,12 @@
             "duration": "2h",
             "location": "ASU MU",
             "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [1],
+            "speakers": [
+                1
+            ],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Blue Team: Forensics-21-Oct-2022.ics"
         },
         {
             "name": "Tool Talk: Docker",
@@ -108,7 +114,7 @@
             "speakers": [],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Tool Talk: Docker-28-Oct-2022.ics"
         },
         {
             "name": "Quick Talks",
@@ -119,7 +125,7 @@
             "speakers": [],
             "category": 1,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Quick Talks-4-Nov-2022.ics"
         },
         {
             "name": "Tool Talk: Sliver",
@@ -130,7 +136,7 @@
             "speakers": [],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Tool Talk: Sliver-11-Nov-2022.ics"
         },
         {
             "name": "TBD Guest Talk",
@@ -141,7 +147,7 @@
             "speakers": [],
             "category": 1,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-TBD Guest Talk-18-Nov-2022.ics"
         },
         {
             "name": "Club Outro TBD",
@@ -152,7 +158,7 @@
             "speakers": [],
             "category": 0,
             "description": "Lorem ipsum",
-            "icsURL": ""
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Club Outro TBD-2-Dec-2022.ics"
         }
     ]
 }
