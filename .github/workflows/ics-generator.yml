@@ -13,7 +13,7 @@ jobs:
         with:
           ref: master
           token: ${{ secrets.COMMIT_TOKEN }}
-          persist-credentials: false
+          persist-credentials: true
           submodules: recursive
       - name: Setup Python
         uses: actions/setup-python@v4
