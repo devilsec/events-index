@@ -25,7 +25,7 @@ jobs:
       - name: Commit ICS Files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Generated ICS files\n\n\nskip-checks:true'
+          commit_message: 'Generated ICS files [skip ci]'
           commit_user_name: 'ICS-Generator [GH]'
           commit_email: 'ics-generator-github-actions@noreply.github.com'
           commit_author: 'ICS-Generator [GH] <ics-generator-github-actions@noreply.github.com>'
