@@ -3,6 +3,8 @@ name: ICS Generator Runner
 on:
   push:
     branches: [master]
+    paths-ignore:
+      - 'ics/**'
 
 jobs:
   generate-ics:
@@ -27,3 +29,5 @@ jobs:
         with:
           commit_message: 'Generated ICS files'
           commit_user_name: 'ICS-Generator [GH]'
+          commit_email: 'github-actions@noreply.github.com'
+          commit_author: 'ICS-Generator [GH] <github-actions@noreply.github.com>'
