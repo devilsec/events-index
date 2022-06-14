@@ -38,7 +38,7 @@ categories = retrieve_validate('categories.json').get('categories')
 
 speaker_keys = ['id', 'name', 'description']
 category_keys = ['id', 'name']
-event_keys = ['name', 'date', 'location', 'locationURL',
+event_keys = ['name', 'date', 'duration', 'location', 'locationURL',
               'speakers', 'category', 'description', 'icsURL']
 
 
@@ -94,6 +94,7 @@ def validate_event(event):
         # Retrieve all values for reuse:
     name = event.get('name')
     date = event.get('date')
+    duration = event.get('duration')
     location = event.get('location')
     location_url = event.get('locationURL')
     speakers = event.get('speakers')
@@ -105,11 +106,16 @@ def validate_event(event):
     if not isinstance(name, str):
         print(type(name))
         raise TypeError(f"Event name '{name}' is not a string.")
-    if not isinstance(date, str) or date_reg.search(date) is None:
-        if not isinstance(date, str):
-            raise TypeError(f"Date value '{date}' is not a string.")
+    if not isinstance(date, str):
+        raise TypeError(f"Date value '{date}' is not a string.")
+    elif date_reg.search(date) is None:
         raise ValueError(
             f"Date value '{date}' is not a valid ISO 8601 2019 format.'")
+    if not isinstance(duration, str):
+        raise TypeError(f"Duration value '{duration} is not a string.'")
+    elif re.search(r"^([0-9]*[dhms])([0-9]+h)?([0-9]+m)?([0-9]+s)?$", duration) is None:
+        raise ValueError(
+            f"Duration value '{duration}' is not in a valid format.")
     if not isinstance(location, str):
         raise TypeError(f"Location name '{location}' is not a string.")
     if not isinstance(location_url, str) or re.search(r"http[s]?://(www\.)?.*", location_url) is None:
