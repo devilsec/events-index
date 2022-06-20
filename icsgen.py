@@ -6,7 +6,7 @@
 # and adds their respective URL to the index.
 
 __author__ = 'Daylam Tayari'
-__version__ = '0.1'
+__version__ = '1.0'
 __copyright__ = 'Copyright (c) 2022 Daylam Tayari'
 __license__ = 'GNU GPL v3'
 
