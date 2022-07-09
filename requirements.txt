@@ -1,4 +1,4 @@
-arrow==0.14.7
+arrow==0.15.1
 DateTime==4.4
 ics==0.7
 python-dateutil==2.8.2
