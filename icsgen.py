@@ -16,6 +16,7 @@ __license__ = 'GNU GPL v3'
 import re
 import json
 from collections import Counter
+from typing import Type
 from ics import Calendar, Event
 from calendar import month_abbr
 from datetime import datetime
@@ -31,7 +32,7 @@ def retrieve_validate(jfile):
         try:
             return json.load(file)
         except json.decoder.JSONDecodeError:
-            print(f"Invalid JSON in file {file}")
+            raise TypeError(f"Invalid JSON in file {file}")
 
 
 events = retrieve_validate('events.json').get('events')
