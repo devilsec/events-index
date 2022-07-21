@@ -29,3 +29,13 @@ jobs:
           commit_user_name: 'ICS-Generator [GH]'
           commit_user_email: 'ics-generator-github-actions@noreply.github.com'
           commit_author: 'ICS-Generator [GH] <ics-generator-github-actions@noreply.github.com>'
+  trigger-website-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger website build
+        run: |
+          curl -X POST \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: token ${{ secrets.WEBSITE_TRIGGER_DISPATCH }}" \
+          https://api.github.com/repos/devilsec/website/dispatches \
+          -d '{"event_type":"deployment"}'
