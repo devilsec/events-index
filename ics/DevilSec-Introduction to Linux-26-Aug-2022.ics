@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220721T033039Z
-DESCRIPTION:Location: ASU MU - https://goo.gl/maps/xTtVTJ4AisTxLaLM9\nLorem ipsum
+DTSTAMP:20220829T172757Z
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to Linux for beginners.
 DURATION:PT2H
-LOCATION:ASU MU
+LOCATION:Virtual
 DTSTART:20220826T231500Z
 STATUS:CONFIRMED
 SUMMARY:Introduction to Linux
-UID:cc3bd82a-c256-4479-b48e-69d48be1bc0f@cc3b.org
+UID:36938e9c-ceb5-490a-868c-c88a6804ae38@3693.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

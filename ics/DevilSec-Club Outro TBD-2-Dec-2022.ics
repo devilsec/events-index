@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220721T033039Z
-DESCRIPTION:Location: ASU MU - https://goo.gl/maps/xTtVTJ4AisTxLaLM9\nLorem ipsum
+DTSTAMP:20220829T172757Z
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nA chill outro and review of the past four months with DevilSec.
 DURATION:PT2H
-LOCATION:ASU MU
+LOCATION:Virtual
 DTSTART:20221202T231500Z
 STATUS:CONFIRMED
 SUMMARY:Club Outro TBD
-UID:09bc496d-137d-46a9-8973-4242eeea61b0@09bc.org
+UID:4f757e1c-0248-4b41-8795-815d21dd9549@4f75.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

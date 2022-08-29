@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220721T033039Z
-DESCRIPTION:Location: ASU MU - https://goo.gl/maps/xTtVTJ4AisTxLaLM9\nLorem ipsum
+DTSTAMP:20220829T172757Z
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to one of our favorite tools: Docker.
 DURATION:PT2H
-LOCATION:ASU MU
+LOCATION:Virtual
 DTSTART:20221028T231500Z
 STATUS:CONFIRMED
 SUMMARY:Tool Talk: Docker
-UID:24e6c967-3cce-4b7b-aa99-60ba1d8bb643@24e6.org
+UID:ee86d600-2073-4b57-853f-c025b854a863@ee86.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

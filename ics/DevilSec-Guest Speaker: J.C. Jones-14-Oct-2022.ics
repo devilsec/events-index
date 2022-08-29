@@ -3,13 +3,13 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DTSTAMP:20220829T172757Z
-DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nA blue-team themed talk on forensics.
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nLorem ipsum
 DURATION:PT2H
 LOCATION:Virtual
-DTSTART:20221021T231500Z
+DTSTART:20221014T231500Z
 STATUS:CONFIRMED
-SUMMARY:Blue Team: Forensics
-UID:d37518b6-840b-47de-98d6-86f0059b532e@d375.org
+SUMMARY:Guest Speaker: J.C. Jones
+UID:5e7ec750-d913-42b9-98d5-50c518ae8725@5e7e.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

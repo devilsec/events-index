@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220721T033039Z
-DESCRIPTION:Location: ASU MU - https://goo.gl/maps/xTtVTJ4AisTxLaLM9\nLorem ipsum
+DTSTAMP:20220829T172757Z
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to vertical privilege escalation in Linux.
 DURATION:PT2H
-LOCATION:ASU MU
+LOCATION:Virtual
 DTSTART:20220909T231500Z
 STATUS:CONFIRMED
 SUMMARY:Linux Privilege Escalation
-UID:b96f9bcd-6450-49cc-9614-2d21559314fc@b96f.org
+UID:06debfd5-ec4d-4278-b66a-54cbc8808204@06de.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

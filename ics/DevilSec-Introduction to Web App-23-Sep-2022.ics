@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220721T033039Z
-DESCRIPTION:Location: ASU MU - https://goo.gl/maps/xTtVTJ4AisTxLaLM9\nLorem ipsum
+DTSTAMP:20220829T172757Z
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to web application penetration testing.
 DURATION:PT2H
-LOCATION:ASU MU
+LOCATION:Virtual
 DTSTART:20220923T231500Z
 STATUS:CONFIRMED
 SUMMARY:Introduction to Web App
-UID:b6508c93-6d38-457e-86c4-8be12ae5953d@b650.org
+UID:74a4b222-9481-43cd-9245-3d3aa792ff6d@74a4.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

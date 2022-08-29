@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220721T033039Z
-DESCRIPTION:Location: ASU MU - https://goo.gl/maps/xTtVTJ4AisTxLaLM9\nLorem ipsum
+DTSTAMP:20220829T172757Z
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nFour bite-sized technical talks on the topic of security.
 DURATION:PT2H
-LOCATION:ASU MU
+LOCATION:Virtual
 DTSTART:20221104T231500Z
 STATUS:CONFIRMED
 SUMMARY:Quick Talks
-UID:a6948ed3-869c-494a-a700-f6a4b68efdb5@a694.org
+UID:4bef92f2-bb30-48a6-b99c-e91fe046bc6a@4bef.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

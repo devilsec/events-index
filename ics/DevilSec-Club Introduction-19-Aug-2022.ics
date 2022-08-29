@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220721T033039Z
-DESCRIPTION:Location: ASU MU - https://goo.gl/maps/xTtVTJ4AisTxLaLM9\nLorem ipsum
+DTSTAMP:20220829T172757Z
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to DevilSec.
 DURATION:PT2H
-LOCATION:ASU MU
+LOCATION:Virtual
 DTSTART:20220819T231500Z
 STATUS:CONFIRMED
 SUMMARY:Club Introduction
-UID:681cdd83-dd6f-4bb7-911b-1c998e918137@681c.org
+UID:8d941324-e320-4012-b8fd-8beb01bc3e0a@8d94.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR
