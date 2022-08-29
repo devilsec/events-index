@@ -4,160 +4,176 @@
             "name": "Club Introduction",
             "date": "2022-08-19T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
             "speakers": [
                 0
             ],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "An introduction to DevilSec.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Club Introduction-19-Aug-2022.ics"
         },
         {
             "name": "Introduction to Linux",
             "date": "2022-08-26T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [],
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
+            "speakers": [
+                2
+            ],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "An introduction to Linux for beginners.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Introduction to Linux-26-Aug-2022.ics"
         },
         {
             "name": "Recon and Enumeration",
             "date": "2022-09-02T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [],
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
+            "speakers": [
+                2
+            ],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "An introduction to reconnaissance and enumeration for web app pentesting.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Recon and Enumeration-2-Sep-2022.ics"
         },
         {
             "name": "Linux Privilege Escalation",
             "date": "2022-09-09T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [],
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
+            "speakers": [
+                2
+            ],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "An introduction to vertical privilege escalation in Linux.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Linux Privilege Escalation-9-Sep-2022.ics"
         },
         {
-            "name": "Blue Team: Incident Response",
+            "name": "Android Reverse Engineering",
             "date": "2022-09-16T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
             "speakers": [
-                1
+                5
             ],
             "category": 0,
-            "description": "Lorem ipsum",
-            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Blue Team: Incident Response-16-Sep-2022.ics"
+            "description": "An introduction to reverse enginnering Android mobile applications.",
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Android Reverse Engineering-16-Sep-2022.ics"
         },
         {
             "name": "Introduction to Web App",
             "date": "2022-09-23T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [],
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
+            "speakers": [
+                6
+            ],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "An introduction to web application penetration testing.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Introduction to Web App-23-Sep-2022.ics"
         },
         {
             "name": "Capture the Flag",
             "date": "2022-09-30T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [],
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
+            "speakers": [
+                2
+            ],
             "category": 2,
-            "description": "Lorem ipsum",
+            "description": "An in-house capture the flag competition. The target is a web application.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Capture the Flag-30-Sep-2022.ics"
         },
         {
-            "name": "J.C. Talk Title",
+            "name": "Guest Speaker: J.C. Jones",
             "date": "2022-10-14T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [],
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
+            "speakers": [
+                3
+            ],
             "category": 1,
             "description": "Lorem ipsum",
-            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-J.C. Talk Title-14-Oct-2022.ics"
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Guest Speaker: J.C. Jones-14-Oct-2022.ics"
         },
         {
             "name": "Blue Team: Forensics",
             "date": "2022-10-21T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
             "speakers": [
                 1
             ],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "A blue-team themed talk on forensics.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Blue Team: Forensics-21-Oct-2022.ics"
         },
         {
             "name": "Tool Talk: Docker",
             "date": "2022-10-28T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [],
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
+            "speakers": [
+                6
+            ],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "An introduction to one of our favorite tools: Docker.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Tool Talk: Docker-28-Oct-2022.ics"
         },
         {
             "name": "Quick Talks",
             "date": "2022-11-04T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
             "speakers": [],
             "category": 1,
-            "description": "Lorem ipsum",
+            "description": "Four bite-sized technical talks on the topic of security.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Quick Talks-4-Nov-2022.ics"
         },
         {
             "name": "Tool Talk: Sliver",
             "date": "2022-11-11T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
             "speakers": [],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "An introduction to one of our favorite tools: Sliver.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Tool Talk: Sliver-11-Nov-2022.ics"
         },
         {
-            "name": "TBD Guest Talk",
+            "name": "Guest Speaker: Matt Keeley",
             "date": "2022-11-18T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
-            "speakers": [],
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
+            "speakers": [
+                7
+            ],
             "category": 1,
             "description": "Lorem ipsum",
-            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-TBD Guest Talk-18-Nov-2022.ics"
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Guest Speaker: Matt Keeley-18-Nov-2022.ics"
         },
         {
             "name": "Club Outro TBD",
             "date": "2022-12-02T16:15:00-07:00",
             "duration": "2h",
-            "location": "ASU MU",
-            "locationURL": "https://goo.gl/maps/xTtVTJ4AisTxLaLM9",
+            "location": "Virtual",
+            "locationURL": "https://discord.io/DevilSec",
             "speakers": [],
             "category": 0,
-            "description": "Lorem ipsum",
+            "description": "A chill outro and review of the past four months with DevilSec.",
             "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Club Outro TBD-2-Dec-2022.ics"
         }
     ]
