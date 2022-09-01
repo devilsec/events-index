@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220829T172757Z
+DTSTAMP:20220901T104226Z
 DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to reconnaissance and enumeration for web app pentesting.
 DURATION:PT2H
 LOCATION:Virtual
 DTSTART:20220902T231500Z
 STATUS:CONFIRMED
 SUMMARY:Recon and Enumeration
-UID:1213b305-9211-4132-81f1-845cdf176f5b@1213.org
+UID:28a4a3e5-3589-4973-b745-a2936599fd37@28a4.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

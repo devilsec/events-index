@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220829T172757Z
+DTSTAMP:20220901T104226Z
 DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to reverse enginnering Android mobile applications.
 DURATION:PT2H
 LOCATION:Virtual
 DTSTART:20220916T231500Z
 STATUS:CONFIRMED
 SUMMARY:Android Reverse Engineering
-UID:d06388e3-500e-4867-9291-1dce146095b4@d063.org
+UID:44ed2959-1b32-47ef-b104-9099f509b6c1@44ed.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

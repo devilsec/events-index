@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220829T172757Z
+DTSTAMP:20220901T104226Z
 DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nFour bite-sized technical talks on the topic of security.
 DURATION:PT2H
 LOCATION:Virtual
 DTSTART:20221104T231500Z
 STATUS:CONFIRMED
 SUMMARY:Quick Talks
-UID:4bef92f2-bb30-48a6-b99c-e91fe046bc6a@4bef.org
+UID:badc67fc-184c-4e3d-be37-178d20abb698@badc.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR
