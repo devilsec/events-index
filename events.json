@@ -1,69 +1,17 @@
 {
     "events": [
         {
-            "name": "Club Introduction",
-            "date": "2022-08-19T16:15:00-07:00",
-            "duration": "2h",
-            "location": "Virtual",
-            "locationURL": "https://discord.io/DevilSec",
-            "speakers": [
-                0
-            ],
-            "category": 0,
-            "description": "An introduction to DevilSec.",
-            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Club Introduction-19-Aug-2022.ics"
-        },
-        {
-            "name": "Introduction to Linux",
-            "date": "2022-08-26T16:15:00-07:00",
-            "duration": "2h",
-            "location": "Virtual",
-            "locationURL": "https://discord.io/DevilSec",
-            "speakers": [
-                2
-            ],
-            "category": 0,
-            "description": "An introduction to Linux for beginners.",
-            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Introduction to Linux-26-Aug-2022.ics"
-        },
-        {
-            "name": "Recon and Enumeration",
-            "date": "2022-09-02T16:15:00-07:00",
-            "duration": "2h",
-            "location": "Virtual",
-            "locationURL": "https://discord.io/DevilSec",
-            "speakers": [
-                2
-            ],
-            "category": 0,
-            "description": "An introduction to reconnaissance and enumeration for web app pentesting.",
-            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Recon and Enumeration-2-Sep-2022.ics"
-        },
-        {
-            "name": "Linux Privilege Escalation",
-            "date": "2022-09-09T16:15:00-07:00",
-            "duration": "2h",
-            "location": "Virtual",
-            "locationURL": "https://discord.io/DevilSec",
-            "speakers": [
-                2
-            ],
-            "category": 0,
-            "description": "An introduction to vertical privilege escalation in Linux.",
-            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Linux Privilege Escalation-9-Sep-2022.ics"
-        },
-        {
-            "name": "Android Reverse Engineering",
+            "name": "Guest Speaker: Team CommUNITY and Calyx Institute",
             "date": "2022-09-16T16:15:00-07:00",
             "duration": "2h",
             "location": "Virtual",
             "locationURL": "https://discord.io/DevilSec",
             "speakers": [
-                5
+                8
             ],
             "category": 0,
-            "description": "An introduction to reverse enginnering Android mobile applications.",
-            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Android Reverse Engineering-16-Sep-2022.ics"
+            "description": "An introduction to the digital rights space, internet freedom, and how to secure a job in the field.",
+            "icsURL": "https://raw.githubusercontent.com/devilsec/events-index/master/ics/DevilSec-Guest Speaker: Team CommUNITY and Calyx Institute-16-Sep-2022.ics"
         },
         {
             "name": "Introduction to Web App",
