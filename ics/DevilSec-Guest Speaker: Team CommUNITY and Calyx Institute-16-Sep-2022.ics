@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTAMP:20220916T040038Z
+DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to the digital rights space\, internet freedom\, and how to secure a job in the field.
+DURATION:PT2H
+LOCATION:Virtual
+DTSTART:20220916T231500Z
+STATUS:CONFIRMED
+SUMMARY:Guest Speaker: Team CommUNITY and Calyx Institute
+UID:0c4f4928-d8b5-45a3-a35f-7e5ee6986a03@0c4f.org
+URL:https://devilsec.org
+END:VEVENT
+END:VCALENDAR

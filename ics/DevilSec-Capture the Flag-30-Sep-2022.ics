@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220901T104226Z
+DTSTAMP:20220916T040038Z
 DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn in-house capture the flag competition. The target is a web application.
 DURATION:PT2H
 LOCATION:Virtual
 DTSTART:20220930T231500Z
 STATUS:CONFIRMED
 SUMMARY:Capture the Flag
-UID:f8ae6684-342a-4d7e-8e47-a1d69046222e@f8ae.org
+UID:15cfee6b-691f-40b1-98e5-8c8a6873b0d4@15cf.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

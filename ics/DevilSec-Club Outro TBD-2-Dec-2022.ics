@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220901T104226Z
+DTSTAMP:20220916T040038Z
 DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nA chill outro and review of the past four months with DevilSec.
 DURATION:PT2H
 LOCATION:Virtual
 DTSTART:20221202T231500Z
 STATUS:CONFIRMED
 SUMMARY:Club Outro TBD
-UID:582ab6c5-e49b-4813-be2e-867b089dc44d@582a.org
+UID:30664898-8ee5-4c96-a621-ee071eaedb52@3066.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220901T104226Z
+DTSTAMP:20220916T040038Z
 DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nA blue-team themed talk on forensics.
 DURATION:PT2H
 LOCATION:Virtual
 DTSTART:20221021T231500Z
 STATUS:CONFIRMED
 SUMMARY:Blue Team: Forensics
-UID:60eaaf60-6d95-46de-84b0-b3fe7c2dff0d@60ea.org
+UID:9b2970bc-3a05-43ae-bafe-e0e920d6ecff@9b29.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR

@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220901T104226Z
+DTSTAMP:20220916T040038Z
 DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to web application penetration testing.
 DURATION:PT2H
 LOCATION:Virtual
 DTSTART:20220923T231500Z
 STATUS:CONFIRMED
 SUMMARY:Introduction to Web App
-UID:2b9fcd50-770a-465d-864b-47e7242df95e@2b9f.org
+UID:cd0c16bc-d1f5-4dfa-a986-376da7c9a16c@cd0c.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR
