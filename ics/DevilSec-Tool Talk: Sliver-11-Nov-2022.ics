@@ -2,14 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20220916T040038Z
+DTSTAMP:20221029T082857Z
 DESCRIPTION:Location: Virtual - https://discord.io/DevilSec\nAn introduction to one of our favorite tools: Sliver.
 DURATION:PT2H
 LOCATION:Virtual
 DTSTART:20221111T231500Z
 STATUS:CONFIRMED
 SUMMARY:Tool Talk: Sliver
-UID:832a857b-8b3e-49eb-9b1c-84f96dbc1eeb@832a.org
+UID:6421f3ba-c53c-47e4-a437-a081c61e9426@6421.org
 URL:https://devilsec.org
 END:VEVENT
 END:VCALENDAR
